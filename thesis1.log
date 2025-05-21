@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.4.7)  28 APR 2025 16:28
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.4.7)  21 MAY 2025 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -205,9 +205,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
 [1]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 65.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 65.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 68.
  (./thesis1.toc)
 \tf@toc=\write3
 \openout3 = `thesis1.toc'.
@@ -218,54 +218,72 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 
 ]
 第 1 章
+File: rate_developenv.png Graphic file (type bmp)
+<rate_developenv.png>
+
+LaTeX Warning: Float too large for page by 56.95955pt on input line 87.
+
 
 
 [1
 
 
 ]
+
+[2]
 第 2 章
-
-
-[2
-
-]
-第 3 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 123.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 123.
 
 
 [3
 
 ]
+
+[4]
+
+[5]
+第 3 章
+
+
+[6
+
+]
 第 4 章
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 109.
 
 
-[4
+[7
 
 ]
 第 5 章
 
 
-[5
+[8
 
 ]
 第 6 章
 
 
-[6
+[9
 
 ] (./thesis1.bbl
 
-[7
+[10
+
+]
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 43.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 50.
+
+
+[11
 
 ])
 
-[8
-
-] (./thesis1.aux)
+[12] (./thesis1.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-11-01> patch level 2
@@ -273,12 +291,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2445 strings out of 475301
- 34120 string characters out of 5768500
- 417605 words of memory out of 5000000
- 25566 multiletter control sequences out of 15000+600000
- 577471 words of font info for 108 fonts, out of 8000000 for 9000
+ 2481 strings out of 475301
+ 34693 string characters out of 5768500
+ 423636 words of memory out of 5000000
+ 25594 multiletter control sequences out of 15000+600000
+ 578365 words of font info for 112 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 57i,8n,65p,269b,310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,351b,310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis1.dvi (12 pages, 4604 bytes).
+Output written on thesis1.dvi (16 pages, 19424 bytes).
