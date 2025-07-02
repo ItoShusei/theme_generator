@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+
+\bibitem{rateenv}
+Stack Overflow.
+\newblock Stack overflow annual developer survey.
+\newblock \url{https://survey.stackoverflow.co/}.
+\newblock 2025年04月28日参照.
+
+\bibitem{colorbench}
+Microsoft.
+\newblock {Theme Color Reference} | {Visual Studio Code Extension API}.
+\newblock \url{https://code.visualstudio.com/api/references/theme-color}.
+\newblock 2025年05月20日参照.
+
+\bibitem{sotu24}
+吉越丈.
+\newblock
+  好みを反映した視認性の高いテキストエディタの配色を推薦する手法の提案および実装.
+\newblock 芝浦工業大学工学部情報工学科2024年度卒業論文, 2025.
+
+\bibitem{saito}
+齋藤大輔, 斎藤恵一, 納富一宏, 東吉彦, 斎藤正男.
+\newblock 明度差と色差による文字色と背景色の視認性予測手法.
+\newblock バイオメディカル・ファジィ・システム学会誌, Vol.~16, No.~1, pp.
+  91--96, 2014.
+
+\bibitem{colorguide}
+WAIC.
+\newblock Understanding {WCAG} 2.1.
+\newblock
+  \url{https://waic.jp/translations/WCAG21/Understanding/use-of-color.html}.
+\newblock 2025年05月20日参照.
+
+\bibitem{webcolor}
+藤本祥, 市川嘉裕, 山口智浩.
+\newblock Web ページの配色のためのインタラクティブな推薦システムの試作.
+\newblock  情報処理学会第83回全国大会講演論文集, pp. 323--324, 2021.
+
+\bibitem{guivscui}
+Matthias Rauterberg.
+\newblock An empirical comparison of menu-selection ({CUI}) and desktop ({GUI})
+  computer programs carried out by beginners and experts.
+\newblock {\em Behaviour \& Information Technology}, Vol.~11, No.~4, pp.
+  227--236, 1992.
+
+\bibitem{guivscli}
+Andisheh Feizi and Chui~Yin Wong.
+\newblock Usability of user interface styles for learning a graphical software
+  application.
+\newblock In {\em 2012 International Conference on Computer \& Information
+  Science (ICCIS)}, Vol.~2, pp. 1089--1094. IEEE, 2012.
+
+\bibitem{nielsen1994usability}
+Jakob Nielsen.
+\newblock Usability inspection methods.
+\newblock In {\em Conference companion on Human factors in computing systems},
+  pp. 413--414, 1994.
+
+\bibitem{lewis2018system}
+James~R Lewis.
+\newblock The system usability scale: past, present, and future.
+\newblock {\em International Journal of Human--Computer Interaction}, Vol.~34,
+  No.~7, pp. 577--590, 2018.
+
+\bibitem{ISO.11664-4:2019}
+日本産業標準調査会.
+\newblock 測色-第4部:CIE 1976 L*a*b*色空間.
+\newblock {JIS Z 8781-4:2013}. 2013.
+
+\bibitem{ISO.11664-6:2022}
+日本産業標準調査会.
+\newblock 測色―第6部: CIEDE2000色差式.
+\newblock {JIS Z 8781-6:2017}. 2017.
+
+\end{thebibliography}

@@ -1,0 +1,112 @@
+\documentclass[a4paper, twocolumn, 10pt]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage[top=20mm,bottom=20mm,left=23mm,right=23mm]{geometry}
+\usepackage[hang,small,bf]{caption}
+\usepackage{bm}
+\usepackage{url}
+%\usepackage[subrefformat=parens]{subcaption}
+
+
+\makeatletter
+
+\def\section{%
+	\@startsection{section}{1}{\z@}%
+	{.1\Cvs \@plus.1\Cdp \@minus.1\Cdp}%
+	{.1\Cvs \@plus.1\Cdp}%
+	{\normalfont\normalsize\bfseries}%
+}
+
+\def\subsection{%
+	\@startsection{subsection}{1}{\z@}%
+	{.1\Cvs \@plus.1\Cdp \@minus.1\Cdp}%
+	{.1\Cvs \@plus.1\Cdp}%
+	{\normalfont\normalsize\bfseries}%
+}
+
+\def\@maketitle {
+	\begin{center}
+		\fontsize{14pt}{0pt}\selectfont
+		{\bf \@title}
+	\end{center}
+	\vspace{1pt}
+	\begin{flushleft}
+		{指導教員 篠埜 功}\hfill{伊藤　柊生}
+	\end{flushleft}
+	\vspace{10pt}
+}
+
+\makeatother
+
+\captionsetup{compatibility=false}
+\pagestyle{empty}
+
+
+\begin{document}
+
+\title{CUIベーステキストエディタ配色生成システムへのGUI導入とユーザビリティ評価}
+
+\maketitle
+
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%研究背景
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{研究背景と目的}
+近年、様々な設定を変更可能なテキストエディタが多くの人々に使用されている。
+StackOverflow Annual Developer Survey\cite{rateenv}の開発環境調査によると、2024年5月の調査では質問に回答した開発者54,175人のうち73.6\%がVisual Studio Codeを使用している。
+
+またVisual Studio Codeをはじめとした多くのテキストエディタでは、視認性向上のため、テキストエディタの配色の変更を行うことができる。
+この変更を行う方法は主に二つある。
+ひとつは拡張機能や既存の配色データをダウンロードし、使用するという方法である。
+もうひとつは多くの個別に設定されている色設定項目を個人で変更するという方法である。
+前者はユーザ個人の好みに合致するものを見つけることが、難しく、後者は設定項目の多さに多くの時間を費やす必要があり、困難であるという問題がある。
+
+これまで、テキストエディタの配色の生成に関する研究は、吉越ら\cite{sotu24}のVisual Studio Codeを対象とした、ユーザの好みを反映した配色ファイルをする手法を提案した研究がある。
+ただし、提案された手法では、配色ファイルの生成をコマンドライン上のみで行うため、ユーザーにとって不便であるという課題が挙げられた。
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%研究目的
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+そこで本研究ではユーザーがより容易に好みのテキストエディタの配色の設定行えるようにするため、GUIを導入することでツールの改善を行う。
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%関連研究
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{関連研究}
+吉越ら\cite{sotu24}はテキストエディタの配色生成
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%評価方法
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{評価方法}
+既存のCUIベーステキストエディタ配色生成システムへのGUIの導入による改善の有用性を示すため、定められた10個の質問にシステムを使ったユーザが
+5段階で評価を行い、スコアとして求める、System Usability Systemを用いる。
+System Usability Scale
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%まとめ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{まとめと展望}
+本研究では、既存のCUIベーステキストエディタ配色生成システムにGUIの導入を行うことでツールの改善を行う。
+今後は改善の有用性を示すため、既存のCUIベースシステムとGUI導入システムをそれぞれ用いた実験を行い、System Usability Scaleでシステムの評価を行う。
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%展望
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\bibliographystyle{junsrt}
+{\footnotesize \bibliography{ref.bib}}
+
+\end{document}
